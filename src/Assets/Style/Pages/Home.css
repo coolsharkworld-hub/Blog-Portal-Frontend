@@ -1,0 +1,74 @@
+.home_row {
+  height: 100vh;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.home_column {
+  float: left;
+  height: 100%;
+}
+
+.home_column1 {
+  width: 40%;
+}
+
+.home_column2 {
+  width: 60%;
+}
+
+.home_base {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 400px;
+  margin: auto;
+  padding: auto;
+}
+
+.field {
+  font-family: "Times";
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.home_button {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  height: 35px;
+  width: 80%;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #ffffff;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.home_button:hover {
+  height: 40px;
+  font-size: 20px;
+  color: #ffa500;
+  background-color: #000000;
+}
+
+.home_image {
+  height: 80%;
+  width: 80%;
+  margin-left: 70px;
+  margin-top: 70px;
+  background-image: url("../../Image/login.jpg  ");
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 900px) {
+  .home_column1 {
+    width: 100%;
+  }
+
+  .home_column2 {
+    display: none;
+  }
+}

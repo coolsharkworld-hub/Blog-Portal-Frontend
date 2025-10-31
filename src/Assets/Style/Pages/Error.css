@@ -1,0 +1,8 @@
+.errorDiv {
+  background-image: url("../../Image/PageNotFound1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 98vh;
+  width: 177vh;
+  background-color: #FFFFFF !important;
+}

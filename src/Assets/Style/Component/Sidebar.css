@@ -1,0 +1,85 @@
+.sidebar_component {
+  display: flex;
+  top: 10.3vh;
+  flex-direction: column;
+  height: 90vh;
+  width: 16vw;
+  border: 1px solid #ccc;
+  border-top: none;
+  position: fixed;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px #ccc;
+}
+
+.sidebar_options {
+  height: 80vh;
+}
+
+.sidebar_item {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  height: 70px;
+  color: #494242;
+  text-decoration: none;
+  font-size: 3vh;
+}
+
+.sidebar_options :hover {
+  color: #000000;
+  font-weight: 800;
+}
+
+.sidebar_icons {
+  font-size: 4vh;
+  margin-right: 10px;
+}
+
+.sidebar_logout_btn {
+  cursor: pointer;
+  text-align: center;
+}
+
+.sidebar_logout_icons {
+  display: none;
+  width: 100%;
+  color: #403c3c;
+  font-size: 4vh;
+  text-align: center;
+}
+
+.active {
+  color: #000000;
+  font-weight: 800;
+  background-color: #ffa500;
+}
+
+@media screen and (max-width: 1280px) {
+  .sidebar_item {
+    font-size: 3vh;
+  }
+  .logout_button_new {
+    font-size: 3vh;
+    height: 30px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .sidebar_component {
+    width: 6vw;
+    transition: width 0.3s ease;
+  }
+  .sidebar_item {
+    padding: 0;
+    justify-content: center;
+  }
+  .sidebar_item span {
+    display: none;
+  }
+  .logout_button {
+    display: none;
+  }
+  .sidebar_logout_icons {
+    display: block;
+  }
+}

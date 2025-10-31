@@ -1,0 +1,89 @@
+.signup_dropdown {
+  color: #000000;
+  font-size: 20px;
+  height: 40px;
+  width: 87%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.dropdown_navbar_technology {
+  margin-right: 20px;
+  color: #757575;
+  font-size: 2.3vh;
+  height: 6vh;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 130px;
+  outline: none;
+  width: auto;
+  cursor: pointer;
+}
+
+.dropdown_navbar_status {
+  margin-right: 20px;
+  color: #757575;
+  font-size: 2.3vh;
+  height: 6vh;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  outline: none;
+  width: 10vw;
+  cursor: pointer;
+}
+
+.dropdown_options {
+  width: 100px;
+}
+
+.writeblog_update_blog_dropdown {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-family: 800;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1070px) {
+  .dropdown_navbar_technology {
+    font-size: 2.3vh;
+    padding: 4px;
+    width: 160px !important;
+  }
+
+  .dropdown_navbar_status {
+    font-size: 2.3vh;
+    padding: 4px !important;
+    width: 100px !important;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .dropdown_navbar_technology {
+    font-size: 2vh;
+    padding: 2px;
+    width: 140px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .dropdown_label {
+    font-size: 15px;
+    height: 5px;
+    margin-bottom: 20px;
+  }
+
+  .signup_dropdown {
+    font-size: 15px;
+    height: 35px;
+    width: 85%;
+    padding: 5px;
+  }
+}

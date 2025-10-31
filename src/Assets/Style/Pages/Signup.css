@@ -1,0 +1,133 @@
+.signup_div {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup_base {
+  width: 120vh !important;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-radius: 40px;
+  text-align: center;
+  margin: 50px;
+  padding: 0 30px;
+  padding-top: 20px;
+  box-shadow: 5px 5px 50px #ccc;
+}
+
+.signup_blog_portal {
+  margin-top: 10px;
+}
+
+.signup_input {
+  margin-bottom: 15px;
+}
+
+.signup_row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.signup_column {
+  width: 50%;
+}
+
+.mobile_column1 {
+  width: 20%;
+}
+
+.mobile_column2 {
+  width: 75%;
+}
+
+.mobile_div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.register_button {
+  margin-top: 10px;
+}
+
+.input_label {
+  font-weight: 800;
+  margin-bottom: 7px;
+}
+
+.dropdown {
+  margin-bottom: 30px;
+}
+
+.code_field {
+  margin-top: 7px;
+  font-size: 20px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  padding: 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.dropdown_label {
+  width: 10%;
+  font-weight: 600;
+  font-family: "Times";
+  font-size: 20px;
+  margin-bottom: 7px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .signup_heading {
+    font-size: 25px;
+  }
+
+  .signup_row {
+    flex-direction: column;
+  }
+
+  .signup_column {
+    width: 100%;
+  }
+
+  .signup_base {
+    height: auto;
+    padding: 15px;
+  }
+
+  .signup_div {
+    height: auto;
+  }
+
+  .code_field {
+    font-size: 20px;
+    height: 40px;
+  }
+
+  .mobile_div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile_column1 {
+    width: 10%;
+  }
+
+  .mobile-column2 {
+    width: 80%;
+  }
+
+  .dropdown_label {
+    margin: 0px 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+}

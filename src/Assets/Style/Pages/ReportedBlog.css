@@ -1,0 +1,14 @@
+.reportedBlog_report {
+  font-size: 25px;
+}
+
+.reportedBlog_reactionName {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.reportedBlog_flagName {
+  display: flex;
+  cursor: pointer;
+  text-align: left;
+}

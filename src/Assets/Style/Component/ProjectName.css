@@ -1,0 +1,22 @@
+.company {
+  color: #ffa500;
+}
+
+.project_name {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.home_project_name {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.projectName {
+  text-align: center;
+  font-size: 5vh;
+  font-weight: 800;
+  width: 16.3%;
+}

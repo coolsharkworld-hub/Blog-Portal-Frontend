@@ -1,0 +1,31 @@
+.login_div {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_base {
+  width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  text-align: center;
+  margin: 30px;
+  padding: 15px;
+  background-color: #FFFFFF;
+  box-shadow: 5px 5px 50px #ccc;
+}
+
+.login_blog_portal {
+  margin-top: 10px;
+}
+
+.login_input {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .login_heading {
+    font-size: 25px;
+  }
+}

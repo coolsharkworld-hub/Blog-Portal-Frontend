@@ -1,0 +1,30 @@
+.myblogs_editbutton {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.myblog_approvalButton {
+  height: 40px;
+  width: 120px;
+  font-size: 18px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-right: 4%;
+}
+
+.approved {
+  background-color: #c7f4ac;
+  color: #008000;
+}
+
+.rejected {
+  background-color: #ffd6d6;
+  color: #ff0000;
+}
+
+.pending {
+  background-color: rgb(233, 199, 137);
+  color: #000000;
+}
